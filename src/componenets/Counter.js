@@ -12,7 +12,7 @@ const Counter = () => {
                 fontFamily: "Arial, sans-serif",
             }}
         >
-            <h1>Count:{count}</h1>
+              <h1>Count: {count}</h1>
             <div style={{ marginTop: "20px" }}>
                 <button
                     onClick={() => setCount(count + 1)}
